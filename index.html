@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy MacBook</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="grid grid-cols-2 mt-12">
+        <div class="p-8">
+            <img src="images/mac.png" alt="">
+        </div>
+
+        <!--   product-Intro -->
+
+        <div class="p-8">
+            <h1 class="text-4xl">Customize Your Blue 24-inch iMac With Apple M1 Chip.</h1>
+            <p class="py-2">Apple M1 chip with 8-core CPU with 4 perfomances cores and 4 efficiency cores, 7-core GPU
+                Neural
+                Engine
+                8GB unified memory 256GB SSD storage Two Thunderbolt/USB 4 ports Magic Mouse Magic Keyboard - US English
+            </p>
+
+            <!--   product-Details-feature -->
+
+            <h2 class="mt-5 py-2 font-medium ">Memory</h2>
+            <button id="8gb-memory" class="border-2 border-gray-400 rounded p-2 mt-auto">8GB
+                Unified Memory</button>
+            <button id="16gb-memory" class="border-2 border-gray-400 p-2 rounded mt-auto">16GB Unified Memory</button>
+
+            <h2 id="storage" class="mt-5 py-2 font-medium">Storage</h2>
+            <button id="256-ssd-storage" class="border-2 border-gray-400 p-2 rounded mt-auto">256GB SSD Storage</button>
+            <button id="512-ssd-storage" class="border-2 border-gray-400 p-2 rounded mt-auto">512GB SSD Storage</button>
+            <button id="1tb-ssd-storage" class="border-2 border-gray-400 p-2 rounded mt-auto">1TB SSD Storage</button>
+
+            <h2 id="delivery-option" class="mt-5 py-2 font-medium">Choose Your Delivery Option</h2>
+            <button id="free-delivery" class="border-2 border-gray-400 p-2 rounded mt-auto">Friday, Aug 25 Free Prime
+                Delivery</button>
+            <button id="paid-delivery" class="border-2 border-gray-400 p-2 rounded mt-auto">Friday, Aug 21 Delivery
+                Charge$20</button>
+
+            <!--   pricing-Account -->
+            <div class="w-2/4 mt-8">
+
+                <h2 class="mt-5 py-2 font-medium flex justify-between">
+                    Best Price
+                    <span>
+                        $<span>1299</span>
+                    </span>
+                </h2>
+                <hr>
+
+                <h2 class="mt-5 py-2 font-medium flex justify-between">
+                    Extra Memory Cost
+                    <span>
+                        $<span id="extra-memory-cost">0</span>
+                    </span>
+                </h2>
+                <hr>
+                <h2 class="mt-5 py-2 font-medium flex justify-between">
+                    Extra Storage Cost
+                    <span>
+                        $<span id="extra-storage-cost">0</span>
+                    </span>
+                </h2>
+                <hr>
+                <h2 class="mt-5 py-2 font-medium flex justify-between">
+                    Delivery Charge
+                    <span>
+                        $<span id="delivery-cost">0</span>
+                    </span>
+                </h2>
+                <hr style="border-bottom: 2px solid black;">
+                <h2 class="mt-5 py-2 font-medium flex justify-between">
+                    Total Price
+                    <span>
+                        $<span id="total-cost">00</span>
+                    </span>
+                </h2>
+
+            </div>
+
+            <!-- Promo-Code-Discount -->
+            <div>
+                <h1 class="text-2xl mt-12">Add Promo Code</h1>
+                <input id="input-promo-code" class="border-4 border-gray-400 p-2 rounded" type="text">
+                <button id="promo-code-apply"
+                    class="text-xl border-2 p-2 rounded border-gray-800 bg-red-500 text-white ">Apply</button>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="text-4xl text-center">
+        Total Price:
+        <span>
+            $<span id="final-cost">00</span>
+        </span>
+    </h2>
+
+    <script src="javascript/jaan.js"></script>
+
+</body>
+
+</html>
